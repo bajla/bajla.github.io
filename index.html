@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
             background: #000;
             color: #ccc;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -19,20 +21,26 @@
             padding: 0;
             box-shadow: none;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             text-align: left;
             color: #ccc;
         }
-        .team, .achievements {
+
+        .team,
+        .achievements {
             margin-bottom: 20px;
             padding: 0;
             background: none;
             border-left: none;
         }
+
         .projects {
             list-style: none;
             padding: 0;
         }
+
         .projects li {
             background: none;
             margin: 10px 0;
@@ -40,34 +48,71 @@
             border-left: none;
             font-family: 'Courier New', monospace;
         }
-        a{
+
+        a {
             color: greenyellow;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Dragonhack Application</h1>
         <div class="team">
             <h2>Meet Our Team</h2>
-            <p>We are a team of four passionate innovators eager to participate in this hackathon. With our combined expertise in technology and problem-solving, we aim to create impactful solutions.
-            <br>
-            We are also an <strong>experienced team</strong>, having participated in a national high school research competition where we received <strong> silver awards and one bronze award</strong>. Beyond school, we have <strong> worked for a tech company</strong>, developed <strong> various websites and applications </strong> for clients, and pursued numerous <strong> hobby projects</strong>.
+            <p>We are a team of four passionate innovators (Aney Vaishnav, Maj Zabukovnik, Miha Kos, Nino Kolander)
+                eager to participate in this hackathon. With our combined expertise in technology and problem-solving,
+                we aim to create impactful solutions.
+                <br>
+                We are also an <strong>experienced team</strong>, having participated in a national high school research
+                competition where we received <strong> silver awards and one bronze award</strong>. Beyond school, we
+                have <strong> worked for a tech company</strong>, developed <strong> various websites and applications
+                </strong> for clients, and pursued numerous <strong> hobby projects</strong>.
         </div>
         <div class="achievements">
             <h2>Our Winning Projects</h2>
             <ul class="projects">
-                <li><strong>Cryptography with Eliptic Curves:</strong>  We researched the mathematical principles behind elliptic curve cryptography and developed a library in c# based on our findings in which we also implemented diffie-hellman key exchange. The outcome was the
+                <li><strong>Cryptography with Eliptic Curves:</strong> We researched the mathematical principles behind
+                    elliptic curve cryptography and developed a library in c# based on our findings in which we also
+                    implemented diffie-hellman key exchange. The outcome was the
                     creation of a user application that demonstrates the implementation of the obtained
                     knowledge and allows users to engage in encrypted two-way communication through a P2P
                     network. In addition, we compared the performance of our library with a standard encryption
                     library provided by Microsoft and evaluated the resistance of cryptography against attacks
-                    from quantum computers. This project earned us <strong> third place in the national competition</strong>. <a href="https://www.knjiznica-celje.si/raziskovalne/4202306879.pdf"> link to the research paper</a>.</li>
-                <li><strong>Blockchain for News Publication:</strong>We built our own blockchain from scratch using the library mentioned above. The research project aimed to explore blockchain technology and create our own implementation. With over 10,000 cryptocurrencies worldwide, we focused on a niche that supports both monetary transactions and news publication, ensuring integrity and preventing censorship. We used strong cryptographic algorithms and implemented a reward system for network stability and self-sufficiency. Additionally, we developed a user-friendly web application for viewing and contributing news. This project also secured <strong>third place in the national competition</strong>. <a href="https://www.knjiznica-celje.si/raziskovalne/4202410103.pdf"> link to the research paper</a>.</li>
-                <li><strong>Connecting articial intelligence with a virtual avatar:</strong> This research paper is aimed at a possible connection between professors and AI. We have built a website that serves this purpose. The frontend is built using NextJS and uses AuthJS to authenticate users. All of the data is stored in MongoDB and the data is being served using API built in NestJS. The API also serves as a bridge between the frontend (Handling user input) and backend (Uploading that input to OpenAI API and returning a voice file from Elevenlabs API). This got us a <strong>bronze award</strong>. <a href="https://www.knjiznica-celje.si/raziskovalne/4202410723.pdf"> link to the research paper</a>.</li>
+                    from quantum computers. This project earned us <strong> third place in the national
+                        competition</strong>. Achieved by Aney Vaishnav and Maj Zabukovnik. <br> <a href="https://www.knjiznica-celje.si/raziskovalne/4202306879.pdf"> link
+                        to the research paper</a>.</li>
+                <li><strong>Blockchain for News Publication:</strong>We built our own blockchain from scratch using the
+                    library mentioned above. The research project aimed to explore blockchain technology and create our
+                    own implementation. With over 10,000 cryptocurrencies worldwide, we focused on a niche that supports
+                    both monetary transactions and news publication, ensuring integrity and preventing censorship. We
+                    used strong cryptographic algorithms and implemented a reward system for network stability and
+                    self-sufficiency. Additionally, we developed a user-friendly web application for viewing and
+                    contributing news. This project also secured <strong>third place in the national
+                        competition</strong>. Achieved by Aney Vaishnav and Maj Zabukovnik. <br><a href="https://www.knjiznica-celje.si/raziskovalne/4202410103.pdf"> link
+                        to the research paper</a>.</li>
+                <li><strong>Connecting articial intelligence with a virtual avatar:</strong> This research paper is
+                    aimed at a possible connection between professors and AI. We have built a website that serves this
+                    purpose. The frontend is built using NextJS and uses AuthJS to authenticate users. All of the data
+                    is stored in MongoDB and the data is being served using API built in NestJS. The API also serves as
+                    a bridge between the frontend (Handling user input) and backend (Uploading that input to OpenAI API
+                    and returning a voice file from Elevenlabs API). This got us a <strong>bronze award</strong>. Achieved by Miha Kos. <br> <a
+                        href="https://www.knjiznica-celje.si/raziskovalne/4202410723.pdf"> link to the research
+                        paper</a>.</li>
+
+            </ul>
+        </div>
+        <div class="achievements">
+            <h2>Our Academic achievements</h2>
+            <ul class="projects">
+                <li><strong>Three-time national champion in the Kangaroo Mathematics Competition</strong> during high school. Achieved by Nino Kolander.</li>
+                <li>Bronze medalist in the <strong>Central European Mathematical Olympiad</strong>. Achieved by Nino Kolander.</li>
+                <li>Bronze medalist at the <strong>International Natural Sciences Olympiad</strong>. Achieved by Nino Kolander.</li>
+    
             </ul>
         </div>
         
     </div>
 </body>
+
 </html>
